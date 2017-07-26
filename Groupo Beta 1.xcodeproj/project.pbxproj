@@ -12,9 +12,18 @@
 		6E18964A1F213F4700EE20D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1896481F213F4700EE20D4 /* Main.storyboard */; };
 		6E18964C1F213F4800EE20D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E18964B1F213F4800EE20D4 /* Assets.xcassets */; };
 		6E18964F1F213F4800EE20D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E18964D1F213F4800EE20D4 /* LaunchScreen.storyboard */; };
+		6E1896571F2141E300EE20D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E1896561F2141E300EE20D4 /* GoogleService-Info.plist */; };
+		6E18965B1F21B32F00EE20D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18965A1F21B32F00EE20D4 /* SignUpViewController.swift */; };
+		6E18965D1F22FAAD00EE20D4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18965C1F22FAAD00EE20D4 /* LogInViewController.swift */; };
+		6E18965F1F22FCEA00EE20D4 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18965E1F22FCEA00EE20D4 /* EditProfileViewController.swift */; };
+		6E1896611F231EC400EE20D4 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1896601F231EC400EE20D4 /* HomeScreenViewController.swift */; };
+		6E685C531F2687A80072505E /* 4-King-Penguins-Fish-Eye-Panorama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E685C521F2687A80072505E /* 4-King-Penguins-Fish-Eye-Panorama.jpg */; };
+		6E685C551F26C3260072505E /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E685C541F26C3260072505E /* MyProfileViewController.swift */; };
+		8E413B6935EE7C5522957EE8 /* Pods_Groupo_Beta_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF944158075BCE49A7E9E2F /* Pods_Groupo_Beta_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DF944158075BCE49A7E9E2F /* Pods_Groupo_Beta_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groupo_Beta_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1896411F213F4700EE20D4 /* Groupo Beta 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groupo Beta 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1896441F213F4700EE20D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E1896461F213F4700EE20D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		6E18964B1F213F4800EE20D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E18964E1F213F4800EE20D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E1896501F213F4800EE20D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1896561F2141E300EE20D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E18965A1F21B32F00EE20D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E18965C1F22FAAD00EE20D4 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		6E18965E1F22FCEA00EE20D4 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		6E1896601F231EC400EE20D4 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		6E685C521F2687A80072505E /* 4-King-Penguins-Fish-Eye-Panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-King-Penguins-Fish-Eye-Panorama.jpg"; sourceTree = "<group>"; };
+		6E685C541F26C3260072505E /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		A975EE557B7E9B7F114B6A3F /* Pods-Groupo Beta 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupo Beta 1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Groupo Beta 1/Pods-Groupo Beta 1.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5A0491519B19BF9157106F /* Pods-Groupo Beta 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupo Beta 1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Groupo Beta 1/Pods-Groupo Beta 1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E413B6935EE7C5522957EE8 /* Pods_Groupo_Beta_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		318E4C410BC302068B7EB73A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A975EE557B7E9B7F114B6A3F /* Pods-Groupo Beta 1.debug.xcconfig */,
+				BF5A0491519B19BF9157106F /* Pods-Groupo Beta 1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D9C1065C1E015091900063C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF944158075BCE49A7E9E2F /* Pods_Groupo_Beta_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E1896381F213F4600EE20D4 = {
 			isa = PBXGroup;
 			children = (
 				6E1896431F213F4700EE20D4 /* Groupo Beta 1 */,
 				6E1896421F213F4700EE20D4 /* Products */,
+				318E4C410BC302068B7EB73A /* Pods */,
+				5D9C1065C1E015091900063C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +94,17 @@
 			children = (
 				6E1896441F213F4700EE20D4 /* AppDelegate.swift */,
 				6E1896461F213F4700EE20D4 /* ViewController.swift */,
+				6E18965A1F21B32F00EE20D4 /* SignUpViewController.swift */,
+				6E18965E1F22FCEA00EE20D4 /* EditProfileViewController.swift */,
+				6E18965C1F22FAAD00EE20D4 /* LogInViewController.swift */,
+				6E1896601F231EC400EE20D4 /* HomeScreenViewController.swift */,
+				6E685C541F26C3260072505E /* MyProfileViewController.swift */,
 				6E1896481F213F4700EE20D4 /* Main.storyboard */,
 				6E18964B1F213F4800EE20D4 /* Assets.xcassets */,
 				6E18964D1F213F4800EE20D4 /* LaunchScreen.storyboard */,
 				6E1896501F213F4800EE20D4 /* Info.plist */,
+				6E1896561F2141E300EE20D4 /* GoogleService-Info.plist */,
+				6E685C521F2687A80072505E /* 4-King-Penguins-Fish-Eye-Panorama.jpg */,
 			);
 			path = "Groupo Beta 1";
 			sourceTree = "<group>";
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E1896531F213F4800EE20D4 /* Build configuration list for PBXNativeTarget "Groupo Beta 1" */;
 			buildPhases = (
+				576A1E0318FF9BE351A16E74 /* [CP] Check Pods Manifest.lock */,
 				6E18963D1F213F4700EE20D4 /* Sources */,
 				6E18963E1F213F4700EE20D4 /* Frameworks */,
 				6E18963F1F213F4700EE20D4 /* Resources */,
+				2DADF2B331086161F8C7DB9D /* [CP] Embed Pods Frameworks */,
+				79A2E600B56DEAE7DAB08FF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +173,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E18964F1F213F4800EE20D4 /* LaunchScreen.storyboard in Resources */,
+				6E685C531F2687A80072505E /* 4-King-Penguins-Fish-Eye-Panorama.jpg in Resources */,
 				6E18964C1F213F4800EE20D4 /* Assets.xcassets in Resources */,
+				6E1896571F2141E300EE20D4 /* GoogleService-Info.plist in Resources */,
 				6E18964A1F213F4700EE20D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DADF2B331086161F8C7DB9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groupo Beta 1/Pods-Groupo Beta 1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576A1E0318FF9BE351A16E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79A2E600B56DEAE7DAB08FF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groupo Beta 1/Pods-Groupo Beta 1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E18963D1F213F4700EE20D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E18965D1F22FAAD00EE20D4 /* LogInViewController.swift in Sources */,
+				6E18965B1F21B32F00EE20D4 /* SignUpViewController.swift in Sources */,
+				6E685C551F26C3260072505E /* MyProfileViewController.swift in Sources */,
 				6E1896471F213F4700EE20D4 /* ViewController.swift in Sources */,
+				6E18965F1F22FCEA00EE20D4 /* EditProfileViewController.swift in Sources */,
 				6E1896451F213F4700EE20D4 /* AppDelegate.swift in Sources */,
+				6E1896611F231EC400EE20D4 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +360,7 @@
 		};
 		6E1896541F213F4800EE20D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A975EE557B7E9B7F114B6A3F /* Pods-Groupo Beta 1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3M32H3GNN8;
@@ -270,6 +374,7 @@
 		};
 		6E1896551F213F4800EE20D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5A0491519B19BF9157106F /* Pods-Groupo Beta 1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3M32H3GNN8;
@@ -300,6 +405,7 @@
 				6E1896551F213F4800EE20D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
